@@ -116,16 +116,16 @@ function draw(){
 //Function to create the input boxes and buttons
 function las(){
     inp=createInput(rows);
-    inp.position(720,92);
+    inp.position(720,125);
     inp.size(50);
     inp1=createInput(columns);
-    inp1.position(935,92);
+    inp1.position(935,125);
     inp1.size(50);
     inp2=createInput(size);
-    inp2.position(1110,92);
+    inp2.position(1110,125);
     inp2.size(50);
     btn=createButton('submit');
-    btn.position(1170,92);
+    btn.position(1170,125);
     btn.mouseClicked(submit);
 }
 function submit(){
